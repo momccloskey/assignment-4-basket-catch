@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class BacktoTitleButton : MonoBehaviour
 {
-    public void OnClick()
+    void OnClick()
     {
         SceneManager.LoadScene("Title Screen");
     }

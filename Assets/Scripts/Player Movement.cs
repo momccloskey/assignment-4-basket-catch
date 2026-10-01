@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float playerSpeed = 50f;
+    [SerializeField] float playerSpeed = 50f;
 
     void Update()
     {
